@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Greenden</title>
+    <!--Tailwind css cdn-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+</head>
+
+<body>
+    <!--Responsive navbar-->
+    <nav class=" bg-pink-300 p-3 flex items-center justify-between shadow-xl sticky top-0 z-50">
+        <h1 class="text-2xl">Greenden</h1>
+
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+            class="size-5 w-8 h-8 md:hidden">
+            <path fill-rule="evenodd"
+                d="M2 4.75A.75.75 0 0 1 2.75 4h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 4.75ZM2 10a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75A.75.75 0 0 1 2 10Zm0 5.25a.75.75 0 0 1 .75-.75h14.5a.75.75 0 0 1 0 1.5H2.75a.75.75 0 0 1-.75-.75Z"
+                clip-rule="evenodd" />
+        </svg>
+
+
+        <ul class="flex gap-3 text-gray-600 hidden md:flex">
+            <li>
+                <a class="hover:underline hover:text-black" href="./index.html">Home</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./products.html">Products</a>
+            </li>
+            <li>
+                <a class="hover:underline hover:text-black" href="./contact.html">Contact</a>
+            </li>
+        </ul>
+    </nav>
+    <!--My products-->
+    <section class="text-center p-4 ">
+        <h1 class="font-bold mt-5 text-3xl">Our Products</h1>
+        <input type="text" placeholder="Search for a product..." class="border border-black rounded-3xl p-2 m-3"
+            style="width: 75% ;">
+
+        <div class="grid grid-cols-2 mt-5 gap-5 md:grid-cols-4">
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-yellow-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Best Seller
+                </div>
+
+                <img src="images/lily plant_1.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Lily Plant</h1>
+                <p class="text-gray-600">$35</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-pink-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Newly Added
+                </div>
+
+                <img src="images/bamboo plant_2.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Bamboo Plant</h1>
+                <p class="text-gray-600">$30</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-yellow-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Best Seller
+                </div>
+
+                <img src="images/Snake plant_3.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Snake Plant</h1>
+                <p class="text-gray-600">$20</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-pink-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Newly Added
+                </div>
+
+                <img src="images/wood plant_4.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Wood Plant</h1>
+                <p class="text-gray-600">$10</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-yellow-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Best Seller
+                </div>
+
+                <img src="images/bonsai plant_5.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Bonsai Plant</h1>
+                <p class="text-gray-600">$25</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-pink-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Newly Added
+                </div>
+
+                <img src="images/broken heart plant_6.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Broken Heart Plant</h1>
+                <p class="text-gray-600">$20</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-yellow-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Best Seller
+                </div>
+
+                <img src="images/money plant_7.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Money Plant</h1>
+                <p class="text-gray-600">$15</p>
+            </div>
+
+            <div class="relative bg-white p-3 rounded shadow">
+                <!-- Badge -->
+                <div
+                    class="absolute top-1 left-1 bg-pink-400 text-white text-[10px] sm:text-xs font-semibold px-2 py-1 rounded z-10">
+                    Newly Added
+                </div>
+
+                <img src="images/fiddle leaf plant_8.jpg" class="inline hover:shadow-xl transform hover:translate-y-2 rounded"
+                    alt="">
+                <h1 class="font-semibold mt-2">Fiddle Leaf Plant</h1>
+                <p class="text-gray-600">$30</p>
+            </div>
+
+
+
+
+
+        </div>
+
+    </section>
+    <!--footer-->
+    <section class="bg-pink-300 p-10 flex flex-col">
+        <h1 class="text-4xl p-2 font-bold">Greeden</h1>
+        <p class="p-2 ">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum accusantium reprehenderit et id
+            mollitia. Deserunt tenetur dolorum accusantium eligendi aliquam.</p>
+        <p class="p-2">@ 2021 Greenday.com</p>
+    </section>
+
+</body>
