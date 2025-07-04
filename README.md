@@ -1,10 +1,9 @@
-# Greenden-TailwindCss
 # 🌿 Greenden
 
 A simple, responsive frontend 🌱 plant shop built with **Tailwind CSS**.
 ---
 🔗 **Live Site:** [View Here](https://vishnu16vardhan.github.io/Greenden-TailwindCss/index.html)  
-📂 **Repo:** [GitHub](https://github.com/yourusername/greenden)
+📂 **Repo:** [GitHub](https://github.com/Vishnu16vardhan/Greenden-TailwindCss)
 ---
 ### ✨ Features
 
